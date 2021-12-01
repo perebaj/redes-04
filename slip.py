@@ -55,6 +55,8 @@ class Enlace:
         self.linha_serial.enviar(new_datagrama)
         
 
+        
+
     def __raw_recv(self, dados):
         # TODO: Preencha aqui com o código para receber dados da linha serial.
         # Trate corretamente as sequências de escape. Quando ler um quadro
